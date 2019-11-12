@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "nodemon -max_old_space_size=4096 app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "sequelize": "^5.21.2",
+    "tedious": "^6.6.0"
+  }
+}
