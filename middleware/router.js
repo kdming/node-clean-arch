@@ -14,7 +14,8 @@ const initRouter = (app) => {
     const routerPath = path.join(`${__dirname}/../api`)
     const files = fs.readdirSync(routerPath)
     for (file of files) {
-      console.log(routerPath + '/' + file)
+      if (!/js/.test(file)) continue
+      if (typeof require(routerPath + '/' + file).router != 'function') continue
       require(routerPath + '/' + file).router({ root, unroot })
     }
     app.use(root.routes())
