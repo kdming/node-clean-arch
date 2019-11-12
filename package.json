@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "nodemon -max_old_space_size=4096 app.js",
-    "start": "node src/app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
