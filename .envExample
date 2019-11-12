@@ -1,0 +1,3 @@
+env=dev
+appPort=8080
+msSql=mssql://test:test123eee@localhost:1433/test
