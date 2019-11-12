@@ -5,6 +5,5 @@ node 简单的服务架构
 3. repository仓库层：负责数据的curd操作，没有业务流程  
 4. service服务层：负责具体的业务流程，是表现层与仓库层的桥梁 
 Ps:可以随意切换仓库层所用数据库，因为其它层不需要关心其内部实现，只要数据格式一样即可  
-`
 > 运行命令  
-`npm run dev`
+`npm run dev` 或 `npm run start`
